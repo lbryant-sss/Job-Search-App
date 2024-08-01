@@ -1,7 +1,8 @@
+import JobsApi from "../functions/Api";
 function Home(){
     return(
         <>
-            
+            <JobsApi />
         </>
     )
 }
