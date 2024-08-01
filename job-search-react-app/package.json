@@ -2,7 +2,7 @@
   "name": "job-search-react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/lbryant-sss/Job-Search-App",
+  "homepage": "https://lbryant-sss.github.io/Job-Search-App/",
   "type": "module",
   "scripts": {
     "dev": "vite",
