@@ -5,9 +5,12 @@
 }
 .nav-wrapper{
   padding: 20px;
+  height: 30vh;
+  width: 100%;
 }
 .nav-wrapper span img{
-  height: 36px;
+  height: 80px;
+  position: fixed;
 }
 .nav-wrapper h1{
   text-align: center;
@@ -17,9 +20,10 @@
   word-spacing: 2px;
   font-size: 26px;
   font-weight: 500;
+  margin-top: 25%;
 }
 .hero-wrapper{
-  min-height: calc(100vh - 100px);
+  min-height: 70vh;
   background-color: var(--secondary-background-color);
   border-radius: 40px 40px 0 0;
   padding: 10px 10px 10px 10px;
@@ -27,21 +31,31 @@
 .horizontal-scroll{
   display: flex;
   overflow-x: scroll;
+  margin: 0 10px;
+  padding: 10px 0;
 }
 .horizontal-scroll span{
-  padding: 10px 15px 10px 15px;
-  border-radius: 10px;
-  margin: 10px;
+  border-radius: 4px;
   background-color: var(--primary-background-color);
+  min-width: 30vw;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  font-family: var(--primary-font-color);
+  font-size: 24px;
+  padding: 10px;
 }
 .horizontal-scroll ul{
   display: flex;
 }
 .horizontal-scroll ul li{
-  padding: 10px 15px 10px 15px;
-  border-radius: 10px;
+  padding: 10px;
+  font-family: var(--primary-font-color);
+  font-size: 24px;
+  margin: 0 0 0 7px;
+  text-align: center;
+  min-width: 40vw;
+  border-radius: 4px;
   background-color: var(--card-background-color);
-  margin: 8px;
 }
 
 .card-wrapper{
