@@ -91,7 +91,6 @@
   font-family: var(--text-font-family);
   margin-left: 10px;
   border-right: 1px solid #222;
-  flex: 0.5;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -100,7 +99,6 @@
   font-family: var(--text-font-family);
   font-size: 22px;
   font-weight: 100;
-  flex: 1;
 }
 .job-tile{
   display: flex;
