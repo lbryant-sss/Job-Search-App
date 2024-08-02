@@ -1,8 +1,9 @@
-import JobsApi from "../functions/Api";
+import Landingpage from "./Landingpage";
+
 function Home(){
     return(
         <>
-            <JobsApi />
+            <Landingpage />
         </>
     )
 }

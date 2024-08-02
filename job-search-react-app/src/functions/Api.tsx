@@ -9,7 +9,8 @@ const JobsApi: React.FC = () => {
     useEffect(() => {
         const fetchJobs = async() => {
             try{
-                const response = await axios.get('https://rapid-linkedin-jobs-api.p.rapidapi.com/search-jobs-v2', {
+                /*https://rapid-linkedin-jobs-api.p.rapidapi.com/search-jobs-v2 */
+                const response = await axios.get('https://google.com', {
                     params: {
                         keywords: "golang",
                         locationId: "92000000",
