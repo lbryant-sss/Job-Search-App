@@ -1,4 +1,5 @@
 import Menubar from "../assets/menubar.svg";
+import Google from "../assets/Google__G__logo.svg";
 
 export default function Landingpage() {
     return(
@@ -27,14 +28,13 @@ export default function Landingpage() {
                     <div className="card-wrapper">
                         <div className="job-card">
                             <div className="company">
-                                <img src="" alt="" />
-                                <span>Google</span>
-                                <span>Posted: 2 weeks ago</span>
+                                <img src={Google} alt="Company Logo" />
+                                <span className="company-name">Google</span>
+                                <span className="date-posted">Posted: 2 weeks ago</span>
                             </div>
-                            <div className="job-title">
-                                <span>Software Engineering</span>
-                                <span>Carlifonia</span>
-                                <span>Apply</span>
+                            <div className="job-tile">
+                                <span className="job-title">Software Engineering</span>
+                                <span className="apply">Apply</span>
                             </div>
                         </div>
                     </div>

@@ -62,7 +62,67 @@
 
 .card-wrapper{
   background-color: var(--other-background-color);
-  min-height: calc(100vh - 100px);
+  min-height: 100vw;
   padding: 10px;
   margin: 10px -10px 0 -10px;
+}
+
+.job-card{
+  min-height: 33%;
+  background-color: var(--card-background-color);
+  padding: 30px 10px 30px 10px;
+  margin: 0 20px;
+  border-radius: 4px;
+}
+
+.company{
+  display: flex;
+  align-items: center;
+}
+.company img{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.company-name{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: var(--text-font-family);
+  margin-left: 10px;
+  border-right: 1px solid #222;
+  flex: 0.5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.date-posted{
+  font-family: var(--text-font-family);
+  font-size: 12px;
+  font-weight: 100;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.job-tile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-title{
+  flex: 1.5;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--text-font-family);
+}
+
+.apply{
+  flex: 0.5;
+  background-color: var(--primary-background-color);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 4px;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 20px;
 }
